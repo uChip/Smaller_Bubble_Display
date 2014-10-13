@@ -2,9 +2,13 @@
 
 <img src="https://github.com/uChip/Smaller_Bubble_Display/blob/master/8-dig%20display.png" alt="LED Display Module" height="260" width="390">  
 
-Eagle CAD PCB designs for an 8-digit LED display module based on the hp bubble display. 
+This repo contains Eagle CAD PCB designs for an 8-digit LED display module based on the hp bubble display. The design files include schematic, board layout and BOM files.  There is also an Eagle library file that defines the module as an Eagle component.  
 
-The module includes a shift register interface to reduce the number of pins required to control the display.
+The module design utilizes a shift register interface to reduce the number of pins required to control the display.  
+
+An Arduino software example implementing a frequency counter is also included.  
+
+See the file Forum-Posting.pdf for a more detailed explanation of the module design and software.  
 
 ## Order PCBs  
 
