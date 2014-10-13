@@ -1,6 +1,6 @@
 # 8-digit 7-segment LED Display Module 
 
-<img src="https://raw2.github.com/uChip/RFM12B_BOB/master/RFM12B_BOB.png" alt="LED Display Module" height="270" width="200">  
+<img src="https://github.com/uChip/Smaller_Bubble_Display/blob/master/8-dig%20display.png" alt="LED Display Module" height="270" width="200">  
 
 Eagle CAD PCB designs for an 8-digit LED display module based on the hp bubble display. 
 
