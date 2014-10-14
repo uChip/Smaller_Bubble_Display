@@ -14,7 +14,7 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
@@ -515,7 +515,7 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="FRAME1" library="NewFrame" package="FR-LTR-ON-PCB" value="FRAME_LTR_CU_MARK" x="21.59" y="5.715" rot="MR0">
 <attribute name="CNAME" value="C.Schnarel" x="21.59" y="5.715" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DATECODE" value="07OCT2014" x="21.59" y="5.715" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DATECODE" value="13OCT2014" x="21.59" y="5.715" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="DESIGNER" value="C.Schnarel" x="21.59" y="5.715" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="CREVISION" value="Rev 2" x="21.59" y="5.715" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
@@ -550,8 +550,8 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="N$4">
 <contactref element="R4" pad="1"/>
 <contactref element="U1" pad="6"/>
-<wire x1="19.31" y1="6.32" x2="20.66" y2="6.32" width="0.254" layer="16"/>
-<wire x1="20.66" y1="6.32" x2="21.96" y2="6.35" width="0.254" layer="16"/>
+<wire x1="19.31" y1="6.32" x2="21.93" y2="6.32" width="0.254" layer="16"/>
+<wire x1="21.93" y1="6.32" x2="21.96" y2="6.35" width="0.254" layer="16"/>
 </signal>
 <signal name="N$5">
 <contactref element="R5" pad="1"/>
@@ -657,7 +657,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="2.54" y1="12.7" x2="15.24" y2="12.7" width="0.254" layer="16"/>
 <wire x1="15.24" y1="12.7" x2="16.51" y2="11.43" width="0.254" layer="16"/>
 <contactref element="R7" pad="2"/>
-<wire x1="5.45" y1="8.89" x2="4.318" y2="8.89" width="0.254" layer="16"/>
+<wire x1="5.45" y1="8.89" x2="4.318" y2="8.89" width="0.3048" layer="16"/>
 <wire x1="4.318" y1="8.89" x2="3.81" y2="8.89" width="0" layer="19" extent="1-16"/>
 <wire x1="1.27" y1="11.43" x2="2.54" y2="10.16" width="0.3048" layer="16"/>
 <wire x1="2.54" y1="10.16" x2="3.048" y2="10.16" width="0.3048" layer="16"/>
@@ -798,13 +798,13 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="DIN">
 <contactref element="U1" pad="2"/>
 <contactref element="JP10" pad="1"/>
-<wire x1="20.32" y1="10.16" x2="20.32" y2="12.7" width="0.254" layer="16"/>
+<wire x1="20.32" y1="10.414" x2="20.32" y2="12.7" width="0.254" layer="16"/>
 <wire x1="20.32" y1="12.7" x2="19.05" y2="13.97" width="0.254" layer="16"/>
 <wire x1="19.05" y1="13.97" x2="16.51" y2="13.97" width="0.254" layer="16"/>
 <wire x1="19.31" y1="8.92" x2="20.223" y2="8.92" width="0.254" layer="16"/>
 <wire x1="20.223" y1="8.92" x2="20.701" y2="9.398" width="0.254" layer="16"/>
-<wire x1="20.701" y1="9.398" x2="20.701" y2="9.779" width="0.254" layer="16"/>
-<wire x1="20.701" y1="9.779" x2="20.32" y2="10.16" width="0.254" layer="16"/>
+<wire x1="20.701" y1="9.398" x2="20.701" y2="10.033" width="0.254" layer="16"/>
+<wire x1="20.701" y1="10.033" x2="20.32" y2="10.414" width="0.254" layer="16"/>
 </signal>
 </signals>
 </board>

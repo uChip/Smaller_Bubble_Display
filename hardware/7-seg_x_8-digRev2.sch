@@ -1654,7 +1654,7 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="FRAME1" library="NewFrame" deviceset="FRAME_LTR_CU_MARK" device="">
 <attribute name="CNAME" value="C.Schnarel"/>
 <attribute name="CREVISION" value="Rev 2"/>
-<attribute name="DATECODE" value="07OCT2014"/>
+<attribute name="DATECODE" value="13OCT2014"/>
 <attribute name="DESIGNER" value="C.Schnarel"/>
 </part>
 </parts>
