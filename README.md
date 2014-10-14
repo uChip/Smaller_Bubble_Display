@@ -13,7 +13,7 @@ See the file Forum-Posting.pdf for a more detailed explanation of the module des
 ## Order PCBs  
 
 You can order this PCB directly from OSH Park.  Click on the following link.  
-  * 8-digit Display Module - http://oshpark.com/shared_projects/XXXXXXX 
+  * 8-digit Display Module - http://oshpark.com/shared_projects/oSSTCt4N 
 
 See Bill of Materials file in repo for parts list.  
 
