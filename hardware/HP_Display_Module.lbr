@@ -610,7 +610,8 @@
 </symbols>
 <devicesets>
 <deviceset name="7-SEGMENT-8DIGIT-HP" prefix="DISP">
-<description>This is a daughter-card module containing two hp 4 digit bubble displays and a shift register.</description>
+<description>This is a daughter-card module containing two hp 4 digit bubble displays and a shift register.&lt;br&gt;
+Design files for the module can be found at: https://github.com/uChip/Smaller_Bubble_Display</description>
 <gates>
 <gate name="G$1" symbol="7-SEGMENT-8DIGIT" x="2.54" y="0"/>
 </gates>
