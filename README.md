@@ -4,9 +4,9 @@
 
 This repo contains Eagle CAD PCB designs for an 8-digit LED display module based on the hp bubble display. The design files include schematic, board layout and BOM files.  There is also an Eagle library file that defines the module as an Eagle component.  
 
-The module design utilizes a shift register interface to reduce the number of pins required to control the display.  
+The module design utilizes a shift register to reduce the number of pins required to control the display.  
 
-An Arduino software example implementing a frequency counter is also included.  
+The software folder contains an Arduino sketch that provides example code to drive the display.   
 
 See the file Forum-Posting.pdf for a more detailed explanation of the module design and software.  
 
@@ -15,16 +15,16 @@ See the file Forum-Posting.pdf for a more detailed explanation of the module des
 You can order this PCB directly from OSH Park.  Click on the following link.  
   * 8-digit Display Module - http://oshpark.com/shared_projects/oSSTCt4N 
 
-See Bill of Materials file in repo for parts list.  
+See the Bill of Materials (BOM) file in the repo for a parts list.  
 
 ## Status  
-  * Rev1 PCB has been tested to be functional. 
-  * Rev2 PCB not yet tested.  
+  * Rev2 PCB has been tested to be functional.  
 
 ## File Formats  
 
-Design files are in "CadSoft EAGLE PCB Design Software" .brd and .sch formats.  
-A free version of the software can be downloaded from www.cadsoftusa.com.  
+Hardware design files are in "CadSoft EAGLE PCB Design Software" .brd and .sch formats.  A free version of the software can be downloaded from www.cadsoftusa.com. 
+
+The example code is in Arduino .ino format (text).  A free version of the Arduino software can be downloaded from www.arduino.cc.  
 
 ## Distribution License  
 
